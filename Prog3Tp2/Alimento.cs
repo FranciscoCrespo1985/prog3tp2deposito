@@ -8,7 +8,7 @@ namespace Prog3Tp2
 {
     class Alimento:Compartimiento
     {
-
+        
 
     }
 }

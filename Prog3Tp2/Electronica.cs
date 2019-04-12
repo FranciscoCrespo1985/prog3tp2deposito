@@ -8,5 +8,11 @@ namespace Prog3Tp2
 {
     class Electronica:Compartimiento
     {
+
+
+
+
+
+
     }
 }

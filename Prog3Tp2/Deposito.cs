@@ -11,7 +11,9 @@ namespace Prog3Tp2
     {
         List<Pasillo> pasillos = new List<Pasillo>();
         Direccion dir = new Direccion();
- 
+        public string telefono { get; set; }
+
+
 
     }
 }

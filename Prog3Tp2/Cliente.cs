@@ -8,7 +8,10 @@ namespace Prog3Tp2
 {
     class Cliente
     {
-
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+        public Direccion direccion { get; set; }
+        
 
 
 
