@@ -1,63 +1,171 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Prog3Tp2.Pasillo" Collapsed="true">
-    <Position X="3" Y="2" Width="1.5" />
+  <Class Name="Prog3Tp2.Alimento">
+    <Position X="11" Y="8" Width="1.5" />
+    <InheritanceLine Type="Prog3Tp2.Compartimiento" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.25" Y="6.5" />
+        <Point X="12.74" Y="6.5" />
+        <Point X="12.74" Y="8.438" />
+        <Point X="12.5" Y="8.438" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAgA=</HashCode>
-      <FileName>Pasillo.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Prog3Tp2.Alimento" Collapsed="true">
-    <Position X="3" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAA=</HashCode>
       <FileName>Alimento.cs</FileName>
     </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="lHeladeras" />
+    </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Prog3Tp2.Cliente" Collapsed="true">
-    <Position X="6.25" Y="1.25" Width="1.5" />
+  <Class Name="Prog3Tp2.Camara">
+    <Position X="9.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Cliente.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camara.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Prog3Tp2.Compartimiento" Collapsed="true">
-    <Position X="3" Y="3" Width="1.5" />
+  <Class Name="Prog3Tp2.Cliente">
+    <Position X="15.75" Y="5.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>QAAAAAAAAAQAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="direccion" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="listaCompartimientos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Prog3Tp2.Compartimiento">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAIAACABAAAAEAAEAAAAAAAAAgA=</HashCode>
       <FileName>Compartimiento.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Prog3Tp2.Deposito">
-    <Position X="3" Y="0.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-    </Compartments>
+  <Class Name="Prog3Tp2.CongeladoProd">
+    <Position X="5" Y="12.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Deposito.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CongeladosProd.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Prog3Tp2.Direccion" Collapsed="true">
-    <Position X="6.25" Y="2" Width="1.5" />
+  <Class Name="Prog3Tp2.Deposito">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="lEquipos" Type="Prog3Tp2.Equipo" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.25" Y="1.244" />
+        <Point X="7.125" Y="1.244" />
+        <Point X="7.125" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAACAAAAgAAAAAAAAAAAAAAAAAAAAAgI=</HashCode>
+      <FileName>Deposito.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dir" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="pasillos" />
+      <Field Name="lEquipos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Prog3Tp2.Direccion">
+    <Position X="16" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAFAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Direccion.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Prog3Tp2.Electronica" Collapsed="true">
-    <Position X="0.75" Y="4" Width="1.5" />
+  <Class Name="Prog3Tp2.Frajiles">
+    <Position X="13" Y="8.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Electronica.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Frajiles.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="lEstanterias" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Prog3Tp2.Equipo">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Equipo.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Prog3Tp2.Materiales" Collapsed="true">
-    <Position X="5.25" Y="4" Width="1.5" />
+  <Class Name="Prog3Tp2.Heladera">
+    <Position X="6" Y="8" Width="1.5" />
+    <AssociationLine Name="capacidad" Type="Prog3Tp2.CongeladoProd" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="9.233" />
+        <Point X="6.75" Y="11.875" />
+        <Point X="5.375" Y="11.875" />
+        <Point X="5.375" Y="12.25" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Heladera.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="capacidad" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Prog3Tp2.Materiales">
+    <Position X="15.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAEAAAAAABAAAA=</HashCode>
       <FileName>Materiales.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="material" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Prog3Tp2.MaterialProd">
+    <Position X="7.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MaterialProd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prog3Tp2.Pasillo">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAACAAAAAAAAAAAAAAAgAAAAAAIAAAgA=</HashCode>
+      <FileName>Pasillo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="compartimiento" />
+      <Property Name="Camara" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Prog3Tp2.Producto">
+    <Position X="11" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAACAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prog3Tp2.Montacargas">
+    <Position X="3.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAABAAAAAAAAgAAAAAAAAAAAI=</HashCode>
+      <FileName>Montacargas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prog3Tp2.Estanteria">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Estanteria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="lProducto" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

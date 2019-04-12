@@ -42,13 +42,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alimento.cs" />
+    <Compile Include="Camara.cs" />
+    <Compile Include="CongeladosProd.cs" />
     <Compile Include="Deposito.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Compartimiento.cs" />
     <Compile Include="Direccion.cs" />
-    <Compile Include="Electronica.cs" />
+    <Compile Include="Estanteria.cs" />
+    <Compile Include="Frajiles.cs" />
+    <Compile Include="Equipo.cs" />
+    <Compile Include="Heladera.cs" />
     <Compile Include="Materiales.cs" />
+    <Compile Include="MaterialProd.cs" />
+    <Compile Include="Montacargas.cs" />
     <Compile Include="Pasillo.cs" />
+    <Compile Include="Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

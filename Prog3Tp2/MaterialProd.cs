@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Prog3Tp2
 {
-    class Electronica:Compartimiento
+    class MaterialProd:Producto
     {
-
-
-
-
-
+        public float peso { get; set; }
+        
 
     }
 }

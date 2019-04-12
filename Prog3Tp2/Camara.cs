@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace Prog3Tp2
 {
-    class Alimento:Compartimiento
+    class Camara : Equipo
     {
-
-
-        public float temp { get; set; }
-
-        public List<Heladera> lHeladeras { get; set; }
-
+        public string servidor { get; set; }
 
     }
 }

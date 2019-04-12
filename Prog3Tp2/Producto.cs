@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace Prog3Tp2
 {
-    class Cliente
+    class Producto
     {
+        public int idProducto { get; set; }
+        public int idCliente { get; set; }
         public string nombre { get; set; }
-        public string apellido { get; set; }
-        public Direccion direccion { get; set; }
-
-        List<Compartimiento> listaCompartimientos;
-
-
-
-
+        public float metrosCubico { get; set; }
     }
 }

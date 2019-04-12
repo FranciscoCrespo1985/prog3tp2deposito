@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Prog3Tp2
 {
-    class Alimento:Compartimiento
+    class CongeladoProd:Producto
     {
+        public float peso { get; set; }
+        
+        
 
-
-        public float temp { get; set; }
-
-        public List<Heladera> lHeladeras { get; set; }
-
+        public DateTime vencimiento { get; set; }
 
     }
 }

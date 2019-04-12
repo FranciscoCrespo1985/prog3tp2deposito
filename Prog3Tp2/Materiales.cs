@@ -8,5 +8,10 @@ namespace Prog3Tp2
 {
     class Materiales:Compartimiento
     {
+        public float maxMetrosCubicos { get; set; }
+   
+        public float metrosCubicosOcupado { get; set; }
+        Producto material = new MaterialProd();
+
     }
 }

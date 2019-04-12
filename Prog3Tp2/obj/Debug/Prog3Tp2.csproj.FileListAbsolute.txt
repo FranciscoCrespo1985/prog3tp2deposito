@@ -1,0 +1,6 @@
+U:\Dropbox\Prog3Tp2\Prog3Tp2\bin\Debug\Prog3Tp2.dll
+U:\Dropbox\Prog3Tp2\Prog3Tp2\bin\Debug\Prog3Tp2.pdb
+U:\Dropbox\Prog3Tp2\Prog3Tp2\obj\Debug\Prog3Tp2.csprojAssemblyReference.cache
+U:\Dropbox\Prog3Tp2\Prog3Tp2\obj\Debug\Prog3Tp2.csproj.CoreCompileInputs.cache
+U:\Dropbox\Prog3Tp2\Prog3Tp2\obj\Debug\Prog3Tp2.dll
+U:\Dropbox\Prog3Tp2\Prog3Tp2\obj\Debug\Prog3Tp2.pdb
